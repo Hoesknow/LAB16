@@ -1,0 +1,79 @@
+html{
+	background-color: black ;
+	background: url('bRadG.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+#buttons{
+
+  text-align: center;
+  margin-top: 66px;
+ font-size: 25px;
+
+
+}
+button{
+	border-radius: 8px;
+	background-color: black;
+  color:white;
+  font-size: 15px;
+}
+
+.style1{
+  color: black;
+  font-size:14px;
+  text-decoration: overline;
+}
+
+.style2{
+  color: blue;
+  font-size:7px;
+}
+
+.style3{
+  color:pink;
+  font-size:5px;
+}
+
+.style4{
+  color:purple;
+  font-size:19px;
+  text-decoration: overline;
+}
+
+.style5{
+  color:white
+  font-size:7px;
+}
+
+.style6{
+  color:orange;
+  font-size:
+   text-decoration: line-through;
+}
+
+.style7{
+  color:red;
+  font-size:10.5px;
+  text-decoration: overline;
+}
+
+.style8{
+  color:yellow;
+  font-size:15px;
+
+}
+
+.style9{
+  color:green;
+  font-size:20px;
+  text-decoration: overline;
+}
+
+.style10{
+  color:violet;
+  font-size: 12px;
+   text-decoration: line-through;
+}
