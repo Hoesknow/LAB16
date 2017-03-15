@@ -3,22 +3,24 @@
   <head>
 
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Oswald:700" rel="stylesheet">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body ng-controller="talksCtrl" >
-
+<h2>Add Words</h2>
     <div id="buttons">
 
-      <button type="button" ng-click="addWord()">Words</button>
+      <button type="button" ng-click="addWord()">WORDS</button>
 
-      <button type="button" ng-click="addDecorativeWord()">Words with Decoration</button>
+      <button type="button" ng-click="addDecorativeWord()">WORDS WITH DECORATION</button>
 
-      <button type="button" ng-click="addMoreWords()">More Words</button>
+      <button type="button" ng-click="addMoreWords()">MORE WORDS</button>
 
-      <button type="button" ng-click="addMoreDecoration()">More Words with Decorations</button>
+      <button type="button" ng-click="addMoreDecoration()">MORE WORDS WITH DECORATIONS</button>
 </div>
-<div id="words"
+<div id="wordsContainer">
 <ul>
 
     <li ng-repeat="item in wordList" ng-class= "item.decoration">{{item.word}}</li>

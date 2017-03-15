@@ -5,25 +5,57 @@ html{
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
+ z-index: -1;
 }
 #buttons{
-
+width:70%;
   text-align: center;
-  margin-top: 66px;
- font-size: 25px;
+  margin:0px auto 0 auto;
+
+ background-color: white;
+ padding:5px 0px 5px 0px;
+ border-radius: 8px;
+
 
 
 }
+h2{
+	margin: 66px 0 0 0;
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+font-family: 'Mr Dafoe', cursive;
+padding-bottom: 0px;
+color:white;
+text-shadow: 2px 2px black:
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
 button{
+	width:200px;
+	border: none;
 	border-radius: 8px;
 	background-color: black;
   color:white;
   font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0 10px 0 10px;
+	font-weight: 300;
+
 }
 
-#words{
+#wordsContainer{
+width:70%;
+height:50%;
   margin-left: 500px;
   margin-top: 175px;
+	background-color: white;
+
+}
+
+ul{
+	list-style: none;
 
 }
 
@@ -64,6 +96,7 @@ button{
   color:red;
   font-size:10.5px;
   text-decoration: overline;
+	font-weight: 700;
 }
 
 .style8{
@@ -76,6 +109,7 @@ button{
   color:green;
   font-size:20px;
   text-decoration: overline;
+	font-weight: 600;
 }
 
 .style10{
